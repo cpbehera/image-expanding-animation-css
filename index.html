@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div hover effects</title>
+    <style>
+        .container{
+            width: 90%;
+            padding: 10px;
+            background: #ddd;
+            margin: 100px auto;
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+            width: 250px;
+            height: 300px;
+            background: olivedrab;
+            margin: 0 10px;
+            transition: 1s ease;
+            transform: rotateY(55deg);
+        }
+        .box:hover{
+            transform: rotateY(0deg);
+            background: #ff800a;
+        }
+        .box img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="./1.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="./2.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="./3.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="./4.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="./5.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
